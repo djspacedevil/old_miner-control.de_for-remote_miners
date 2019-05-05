@@ -1,0 +1,722 @@
+body {
+	background-image: url(../images/background/background.jpg);
+	background-color:#F58830;
+	//font-family: Verdana, Geneva, sans-serif;
+	font-family: Calibri,Ebrima,Arial,Helvetica,sans-serif;
+}
+
+#Main_frame {
+	margin: 0 230px;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height: auto;
+	min-width: 600px;
+	display:block;
+	background:rgba(255,255,255,0.7);  //
+	margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    position: fixed;
+	color: #555555;
+}
+
+
+#Logout {
+	position:absolute;
+	top: 10px;
+	right: 20pX;
+	background-image: url(../images/exit.png);
+	background-size: 100% auto;
+	width:32px;
+	height:32px;
+	cursor:url(../images/logout.png),help;
+	
+}
+
+#Main_welcome {
+    margin: 0 230px;
+	width: auto;
+	height: 60px;
+	background-color: #FFCC33;
+	//background:rgba(255,255,255,0.9);
+	margin: 0px;
+	position: relative;
+	top: 0; left: 0; bottom: 0; right: 0;
+	/*display:none;*/
+	text-align: center;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#Main_welcome .head {
+	text-align: center;
+	margin-top: auto;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#Main_frame .Global_Overview {
+	background-color: #E8E8E8;
+	//background:rgba(111,255,255,0.9);
+	padding: 5px 20px;
+	height: 55px;
+	font-size: 40px;
+	line-height: 55px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#own_risk {
+	text-align: center;
+	font-size: 12px;
+	color: darkred;
+	margin-top: 20px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.middle {
+	float:left;
+	width:30% !important;
+}
+
+.center {
+	text-align: center;
+	line-height: 20px;
+	width: 100%;
+}
+
+.hash_speed_row {
+	color: #FFF;
+	font-size: 25px;
+}
+
+.hash_speed_row > div{
+	height: 40px;
+	line-height: 40px;
+	width:29%;
+	margin-left:2%;
+	margin-right:2%;
+	//width: 310px;
+	margin-bottom:20px;
+	
+}
+
+.pool_list {
+	width: 100%;
+	font-size:20px;
+	background-color:#EBEBEB;
+	color: #555555;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.pool_list th {
+	border: 1px solid #CCCCCC;
+	height: 30px;
+	line-height: 30px;
+}
+
+.pool_list td {
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	height: 50px;
+	line-height: 50px;
+}
+
+.devices_list {
+	width: 100%;
+	font-size:20px;
+	background-color:#EBEBEB;
+	color: #555555;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.devices_list th {
+	border: 1px solid #CCCCCC;
+	height: 30px;
+	line-height: 30px;
+}
+
+.devices_list td {
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	height: 50px;
+	line-height: 50px;
+}
+
+/*Pool, ON OFF*/
+.pool_on {
+	background-image: url(../images/switch_on.png);
+	background-size: 100% auto;
+	width:32px;
+	height:32px;
+	cursor:pointer;
+}
+
+.pool_off {
+	background-image: url(../images/switch_off.png);
+	background-size: 100% auto;
+	width:32px;
+	height:32px;
+	cursor:pointer;
+}
+
+.first_th {
+	width: 34px;
+}
+/**/
+
+
+.graybackground {
+	background-color:#E8E8E8;
+}
+
+.whitebackground {
+	background-color:#F2F2F2;
+}
+
+.yellowbackground {
+	background-color:#FFFFD2;
+}
+
+.redbackground {
+	background-color:#FFE6E6;
+}
+
+
+.sha-256 {
+	background-color: #009966;
+}
+
+.scrypt{
+	background-color: #006633;
+}
+
+.scrypt-n {
+	background-color: #999900;
+}
+
+.keccak {
+	background-color: #0099FF;
+}
+
+.x11 {
+	background-color: #009999;
+}
+
+.quark {
+	background-color: #99CC66;
+}
+.groestl {
+	background-color: #6699FF;
+}
+
+.jha {
+	background-color: #99CCFF;
+}
+
+.blake-256 {
+	background-color: #669966;
+}
+
+.neoscrypt {
+	background-color: #6666FF;
+}
+
+.lyra2re {
+	background-color: #CCCCFF;
+}
+
+.size14 {
+	font-size: 14px;
+}
+
+.size12 {
+	font-size: 12px;
+}
+
+.size20 {
+	font-size: 20px;
+}
+
+.size25 {
+	font-size: 25px;
+}
+
+.size40 {
+	font-size: 40px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.left10 {
+	padding-left: 10px;
+}
+
+.left20 {
+	padding-left: 20px;
+}
+
+.right10 {
+	padding-right: 10px;
+}
+
+.right20 {
+	padding-right: 20px;
+}
+
+.miner_configfile {
+	display: none;
+	padding: 10px 10px 30px;
+}
+
+.miner_configfile textarea {
+	width: 100%;
+	border: 1px solid #B9BDC1;
+    color: #797979;
+	font-size: 15px;
+    -moz-box-shadow: 0 2px 4px #bbb inset;
+    -webkit-box-shadow: 0 2px 4px #BBB inset;
+    box-shadow: 0 2px 4px #BBB inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.add_pool {
+	display: none;
+	padding: 20px 10px 30px;
+}
+
+.save_new_pool {
+	background: #0066FF;
+	color: #FFF;
+	line-height: 22px;
+	text-align: center;
+	width: 15%;
+	cursor:pointer;
+	overflow: auto;
+}
+
+.add_pool input {
+	width: 50%;
+	border: 1px solid #B9BDC1;
+    color: #797979;
+	font-size: 20px;
+	text-align: center;
+    -moz-box-shadow: 0 2px 4px #bbb inset;
+    -webkit-box-shadow: 0 2px 4px #BBB inset;
+    box-shadow: 0 2px 4px #BBB inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	padding:5px;
+	margin-bottom: 10px;
+}
+
+.save_configfile {
+	background: #0066FF;
+	color: #FFF;
+	line-height: 22px;
+	text-align: center;
+	width: 15%;
+	cursor:pointer;
+	overflow: auto;
+	
+}
+
+.new_miner_transactionhash {
+	width: 70%;
+}
+
+.new_miner_transactionhash textarea {
+	width: 100%;
+	border: 1px solid #B9BDC1;
+    color: #797979;
+	font-size: 20px;
+    -moz-box-shadow: 0 2px 4px #bbb inset;
+    -webkit-box-shadow: 0 2px 4px #BBB inset;
+    box-shadow: 0 2px 4px #BBB inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.new_miner_transactionhash textarea:focus {
+    background-color: #E7E8E7;
+    outline: 0;
+}
+
+.new_miner_token {
+	width: 70%;
+}
+
+.new_miner_token textarea {
+	width: 100%;
+	border: 1px solid #B9BDC1;
+    color: #797979;
+	font-size: 20px;
+    -moz-box-shadow: 0 2px 4px #bbb inset;
+    -webkit-box-shadow: 0 2px 4px #BBB inset;
+    box-shadow: 0 2px 4px #BBB inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.new_miner_token textarea:focus {
+    background-color: #E7E8E7;
+    outline: 0;
+}
+
+.loading {
+	margin: 5px;
+	width: 45px;
+	height: 45px;
+}
+
+.wait_load{
+	display: none;
+}
+
+.cat_separator {
+	font-size: 30px;
+	line-height: 30px;
+	padding: 5px 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.middle_site {
+	overflow: auto;
+}
+
+.global_reg_miner {
+	margin-left: 200px;
+	float:left;
+	text-align:center;
+}
+
+.global_active_miner {
+	margin-right: 200px;
+	float:right;
+	text-align:center;
+}
+
+.ranking {
+	overflow: auto;
+	width: 50%;
+	margin: auto;
+}
+
+.addminer {
+	background: #66CC33;
+	height: 32px;
+	width: 32px;
+	line-height: 28px;
+	margin-top: 12px;
+	margin-right: 10px;
+	text-align: center;
+	color: #FFF;
+	cursor:pointer;
+}
+
+.site_donation {
+	border: 1px solid #CCCCCC;
+	width: 95%;
+	overflow: auto;
+	margin: auto;
+	padding: 10px;
+	background:rgba(255,255,255,0.8);  //
+}
+
+.helpbox {
+	background: #FF9933;
+	height: 32px;
+	width: 32px;
+	line-height: 30px;
+	margin-top: 0px;
+	margin-right: 10px;
+	text-align: center;
+	color: #FFF;
+	font-size: 30px;
+	cursor:pointer;
+}
+
+.donation_bar {
+	overflow: auto;
+	height: 60px;
+	width:	100%;
+}
+
+
+.active_miner {
+	border: 1px solid #CCCCCC;
+	width: 95%;
+	margin: auto;
+	font-size: 20px;
+	overflow: auto;
+	background:rgba(255,255,255,0.8);  //
+}
+
+.inactive_miner {
+	border: 1px solid #CCCCCC;
+	width: 95%;
+	margin: auto;
+	font-size: 20px;
+	overflow: visible;
+	background:rgba(255,255,255,0.8);  //
+}
+
+.remove_miner {
+	background: #CC0000;
+	height: 32px;
+	width: 32px;
+	line-height: 28px;
+	margin-top: 0px;
+	margin-right: 10px;
+	text-align: center;
+	color: #FFF;
+	font-size: 30px;
+	cursor:pointer;
+}
+
+.edit_miner {
+	cursor:pointer;
+}
+
+.active_miner_head {
+	border-bottom: 1px solid #CCCCCC;
+	overflow: auto;
+	padding: 5px;
+}
+
+.inactive_miner_head {
+	border-bottom: 1px solid #CCCCCC;
+	overflow: auto;
+	padding: 5px;
+}
+
+.miner_name {
+	margin-left: 20px;
+    margin-right: 20px;
+	color: #0066FF;
+}
+
+.miner_version {
+	margin-right: 30px;
+}
+
+.info_row {
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.info_row2 {
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.info_row3 {
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.info_row > div {
+	width: 19%;
+	margin-left: 1%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.info_row2 > div {
+	width: 24%;
+	margin-left: 1%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.info_row3 > div {
+	width: 24%;
+	margin-left: 1%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.mine_scrypt {
+	background: #0066FF;
+	color: #FFF;
+}
+
+.best_share {
+	background: #66CC33;
+	color: #FFF;
+}
+
+.miner_pool {
+	background: #EBEBEB;
+	height: 50px;
+	line-height: 50px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.addnew_pool {
+	background: #FF6633;
+	margin-right: 20px;
+	margin-top: 5px;
+	padding: 10px 40px;
+	height: 20px;
+	line-height: 20px;
+	color: #FFF;
+	cursor:pointer;
+}
+
+.edit_config {
+	background: #F4C400;
+	margin-right: 20px;
+	margin-top: 5px;
+	padding: 10px 40px;
+	height: 20px;
+	line-height: 20px;
+	color: #FFF;
+	cursor:pointer;
+}
+
+.delPool {
+	cursor:pointer;
+}
+
+#left_side {
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 230px;
+	background-color: rgba(0,0,0,0.8);
+	height: 100%;
+	float: left;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left_side #logo {
+	background-image: url('../images/Miner_Control_Logo.png');
+	background-repeat: no-repeat;
+	height: 120px;
+	width: 210px;
+	background-size: 100% auto;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#left_side #menu_entries {
+	padding-top: 10px;
+	margin-left: 50px;
+	line-height: 1.5;
+}
+
+
+#left_side #menu_footer {
+	position: absolute;
+	bottom: 5px;
+	left: 30px;
+	text-align: center;
+	margin-left: 15px;
+}
+
+
+#left_side #menu_footer img {
+	max-width: 100px;
+}
+
+#left_side #menu_footer a {
+	text-decoration: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; /* Webkit */
+	-moz-user-select: none;    /* Firefox */
+	-ms-user-select: none;     /* IE 10  */
+	/* Currently not supported in Opera but will be soon */
+	-o-user-select: none;
+	user-select: none;  
+	color: #FFF;
+}
+
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+}
+
+.toggle {
+	position:absolute;
+	bottom: 150px;
+	left: 40px;
+}
+/*Side Menu Begin */
+#side_menu_overview {
+	display: block;
+	padding: 0 20px;
+	background: url('../images/icons/icon_overview.png') no-repeat scroll left center transparent;
+	background-size: 12px auto;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+#side_menu_first_steps {
+	display: block;
+	padding: 0 20px;
+	background: url('../images/icons/icon_firststep.png') no-repeat scroll left center transparent;
+	background-size: 12px auto;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+#side_menu_miner {
+	display: block;
+	padding: 0 20px;
+	background: url('../images/icons/icon_miner.png') no-repeat scroll left center transparent;
+	background-size: 12px auto;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+#side_menu_logout {
+	display: block;
+	padding: 0 20px;
+	background: url('../images/icons/icon_logout.png') no-repeat scroll left center transparent;
+	background-size: 12px auto;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+/*Side Menu End */
+
+/* Statistic Grid Begin */
+#Main_frame .Main_static_grid {
+	background-color: rgba(255,255,255,0.8);
+	height: 250px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+/* Statistic Grid End */
+
+/* Miner_Frame Begin */
+
+
+#clear {
+	clear: both;
+	height: 20px;
+}
+
+
+/* Miner_Frame End */
